@@ -1,0 +1,26 @@
+<header>
+  <div class="navbar navbar-dark bg-primary shadow-sm">
+    <div class="navbar-brand align-item-center d-fles">
+      <i style="font-size:40px;" class="fas fa-shipping-fast">&nbsp;
+      </i>
+      <strong style="font-size: 30px;">Flipcart</strong>
+        <!-- <span class="form-group">
+      <input type="text" class="form-control search-input" placeholder="search products">
+         <span class="fas fa-search search-icon"></span>
+
+        </span> -->
+
+          <input type="text" class="search-input" placeholder="Search Products...">
+          <span class="search-icon">
+              <i class="fa fa-search"></i> <!-- You can use a search icon font or an SVG icon here -->
+
+          </span>
+
+    </div>
+    <button routerLink="cart" class="btn btn-primary">
+          <i style="font-size: 30px;" class="fas fa-cart-plus"></i>
+          <div style="font-size: 10px;" class="badge bg-danger">{{totalItem}}</div>
+    </button>
+  </div>
+</header>
+
